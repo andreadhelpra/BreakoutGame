@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Ball
+comment0.text=\r\n\ This\ class\ is\ used\ to\ create\ a\ ball\ along\ with\ its\ properties.\r\n\ It\ is\ subclass\ of\ {@link\ GameObj}\r\n
+comment1.params=x\ y\ r\ c
+comment1.target=Ball(int,\ int,\ int,\ javafx.scene.paint.Color)
+comment2.params=obj
+comment2.target=boolean\ hitBy(GameObj)
+comment2.text=\r\n\ hitBy\ method\ for\ the\ Ball.\ Similar\ to\ the\ hitBy\ method\ for\ the\ other\ objects,\ \r\n\ with\ the\ only\ difference\ that\ in\ this\ case\ topX\ is\ the\ centre\ of\ the\ ball\ so\ it\ needs\ the\ radius\ to\ calculate\ its\ extremity.\r\n
+numComments=3

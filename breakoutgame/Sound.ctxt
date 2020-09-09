@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Sound
+comment0.text=\r\n\ This\ class\ deals\ with\ playing,\ stopping,\ and\ looping\ of\ background\ music\ for\ the\ game.\r\n\ @see\ royalty\ free\ music\ -\ <a\ href\=\ "https\://www.bensound.com/royalty-free-music/cinematic">https\://www.bensound.com/royalty-free-music/cinematic</a>\r\n
+comment1.params=fileName
+comment1.target=Sound(java.lang.String)
+comment1.text=\ This\ is\ the\ constructor\ method\ of\ this\ class,\ it\ asks\ for\ a\ .wav\ file\ and\ then\ creates\ a\ clip\ which\ will\ be\ played\ in\ a\ loop.\ \r\n\ It\ throws\ some\ debugging\ messages\ in\ case\ the\ operation\ does\ not\ run\ as\ expected\r\n\ @param\ fileName\ this\ is\ the\ name\ of\ the\ file\ that\ will\ be\ played.\ It\ has\ to\ be\ a\ .wav\ file\r\n\ @throws\ RuntimeException\ if\ file\ is\ not\ found\r\n\ @throws\ MalformedURLException\ if\ the\ URL\ is\ malformed\r\n\ @throws\ UnsupportedAudioFileException\ if\ the\ file\ is\ not\ supported\r\n\ @throws\ IOException\ if\ an\ input\ or\ output\ exception\ occurs\r\n\ @throws\ LineUnavailableException\ if\ line\ cannot\ be\ opened\ because\ it\ is\ unavailable\r\n\ @see\ <a\ href\="https\://stackoverflow.com/questions/11919009/using-javax-sound-sampled-clip-to-play-loop-and-stop-multiple-sounds-in-a-game">\r\n\ https\://stackoverflow.com/questions/11919009/using-javax-sound-sampled-clip-to-play-loop-and-stop-multiple-sounds-in-a-game</a>\r\n
+comment2.params=
+comment2.target=void\ play()
+comment2.text=\r\n\ \ it\ allows\ to\ play\ the\ clip\r\n
+comment3.params=
+comment3.target=void\ stop()
+comment3.text=\r\n\ \ it\ pauses\ the\ clip\r\n
+comment4.params=
+comment4.target=void\ close()
+comment4.text=\ \r\n\ it\ arrests\ the\ clip\r\n
+numComments=5

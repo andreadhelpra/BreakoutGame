@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=GameObj
+comment0.text=\ An\ object\ in\ the\ game\ with\ a\ position,\ a\ colour,\ and\ a\ direction\ of\ movement.\r\n\ \ It\ is\ super\ class\ of\ {@link\ Brick}\ and\ {@link\ Ball}\r\n\ \ @see\ Brick\r\n\ \ @see\ Ball\r\n
+comment1.params=x\ y\ r\ c
+comment1.target=GameObj(int,\ int,\ int,\ javafx.scene.paint.Color)
+comment1.text=\r\n\ This\ creates\ a\ constructor\ for\ a\ round\ object\r\n\ @radius\ this\ is\ the\ radius\ of\ the\ object,\ it\ is\ enough\ to\ create\ a\ circle\ with\ no\ position\ or\ color.\r\n\ @see\ <a\ href\="https\://www.tutorialspoint.com/javafx/2dshapes_circle.htm">https\://www.tutorialspoint.com/javafx/2dshapes_circle.htm</a>\r\n
+comment2.params=x\ y\ w\ h\ c
+comment2.target=GameObj(int,\ int,\ int,\ int,\ javafx.scene.paint.Color)
+comment2.text=\r\n\ Constructor\ for\ square/rectangular\ object.\r\n
+comment3.params=units
+comment3.target=void\ moveX(int)
+comment3.text=\r\n\ move\ in\ x\ axis\r\n
+comment4.params=units
+comment4.target=void\ moveY(int)
+comment4.text=\r\n\ move\ in\ y\ axis\r\n
+comment5.params=
+comment5.target=void\ changeDirectionX()
+comment5.text=\ \r\n\ change\ direction\ of\ movement\ in\ x\ axis\ (-1,\ 0\ or\ +1)\r\n
+comment6.params=
+comment6.target=void\ changeDirectionY()
+comment6.text=\r\n\ change\ direction\ of\ movement\ in\ y\ axis\ (-1,\ 0\ or\ +1)\r\n
+comment7.params=obj
+comment7.target=boolean\ hitBy(GameObj)
+comment7.text=\ Detect\ collision\ between\ this\ object\ and\ the\ argument\ object\r\n\ It's\ easiest\ to\ work\ out\ if\ they\ do\ NOT\ overlap,\ and\ then\r\n\ return\ the\ negative\ (with\ the\ \!\ at\ the\ beginning)\r\n
+numComments=8

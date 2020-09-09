@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Controller
+comment0.text=\ The\ breakout\ controller\ receives\ KeyPress\ events\ from\ the\ GUI\ (via\r\n\ the\ KeyEventHandler).\ It\ maps\ the\ keys\ onto\ methods\ in\ the\ model\ and\ \r\n\ calls\ them\ appropriately\r\n
+comment1.params=
+comment1.target=Controller()
+comment2.params=event
+comment2.target=void\ userKeyInteraction(javafx.scene.input.KeyEvent)
+comment2.text=\ This\ is\ how\ the\ View\ talks\ to\ the\ Controller\r\n\ AND\ how\ the\ Controller\ talks\ to\ the\ Model\r\n\ This\ method\ is\ called\ by\ the\ View\ to\ respond\ to\ key\ presses\ in\ the\ GUI\r\n\ The\ controller's\ job\ is\ to\ decide\ what\ to\ do.\ In\ this\ case\ it\ converts\r\n\ the\ keypresses\ into\ commands\ which\ are\ run\ in\ the\ model\r\n
+numComments=3

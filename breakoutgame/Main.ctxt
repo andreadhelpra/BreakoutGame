@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Main
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=window
+comment2.target=void\ start(javafx.stage.Stage)
+comment2.text=\r\n\ this\ method\ is\ used\ to\ create\ a\ window\ and\ set\ up\ the\ game.\ It\ does\ not\ call\ {@link\ Model\#startGame()\ model.startGame()}\ to\ display\ the\ bricks\ \r\n\ as\ that\ is\ called\ by\ the\ {@link\ View\#startButtonClick(ActionEvent\ event)\ View}\ when\ the\ start\ button\ is\ clicked\r\n\ @see\ Model\#startGame()\r\n\ @see\ View\#startButtonClick(ActionEvent\ event)\r\n
+numComments=3

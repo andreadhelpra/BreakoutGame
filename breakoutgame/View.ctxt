@@ -1,0 +1,42 @@
+#BlueJ class context
+comment0.target=View
+comment0.text=\ The\ View\ class\ creates\ and\ manages\ the\ GUI\ for\ the\ application.\r\n\ It\ doesn't\ know\ anything\ about\ the\ game\ itself,\ it\ just\ displays\r\n\ the\ current\ state\ of\ the\ Model,\ and\ handles\ user\ input\r\n
+comment1.params=w\ h
+comment1.target=View(int,\ int)
+comment10.params=
+comment10.target=void\ drawPicture()
+comment10.text=\r\n\ drawing\ the\ game\r\n
+comment11.params=gc\ go
+comment11.target=void\ displayGameObj(javafx.scene.canvas.GraphicsContext,\ GameObj)
+comment11.text=\r\n\ \ Display\ a\ game\ object\ -\ it\ is\ just\ a\ rectangle\ on\ the\ canvas\r\n
+comment12.params=gc\ go
+comment12.target=void\ displayBall(javafx.scene.canvas.GraphicsContext,\ GameObj)
+comment12.text=\r\n\ Display\ a\ circle\r\n\ it\ uses\ a\ fillOval\ method\ to\ display\ the\ object\r\n\ @see\ <a\ href\="https\://docs.oracle.com/javase/7/docs/api/java/awt/Graphics.html">https\://docs.oracle.com/javase/7/docs/api/java/awt/Graphics.html</a>\r\n
+comment13.params=
+comment13.target=void\ update()
+comment13.text=This\ is\ how\ the\ Model\ talks\ to\ the\ View\r\n\ This\ method\ gets\ called\ BY\ THE\ MODEL,\ whenever\ the\ model\ changes\r\n\ It\ has\ to\ do\ whatever\ is\ required\ to\ update\ the\ GUI\ to\ show\ the\ new\ model\ status\r\n
+comment2.params=window
+comment2.target=void\ start(javafx.stage.Stage)
+comment2.text=\r\n\ This\ method\ is\ responsible\ for\ creating\ the\ GUI.\ It\ creates\ first\ a\ main\ menu\ that\ asks\ for\ username\ \ and\ shows\ a\ start\ button.\ \r\n\ Once\ the\ start\ button\ is\ pressed\ {@link\ \#startButtonClick(ActionEvent\ event)}\ is\ called\ to\ start\ the\ first\ level\ and\ manage\ what\ happens\ next.\r\n\ @param\ infoText\ this\ is\ a\ label\ at\ the\ top\ of\ the\ page\ that\ shows\ the\ game\ title\ on\ the\ start\ menu\ and\ the\ score\ once\ 'start'\ is\ pressed.\r\n\ To\ style\ it,\ it\ uses\ webfonts\ by\ Google.</br>\r\n\ {@code\ setTextFill}\ is\ used\ to\ target\ the\ CSS\ without\ modifying\ the\ stylesheet\ {@link\ <a\ href\ \=\ "http\://www.java2s.com/Code/Java/JavaFX/SetLabelTextcolor.htm">\r\n\ http\://www.java2s.com/Code/Java/JavaFX/SetLabelTextcolor.htm</a>(@see\ only)}\r\n\ @see\ <a\ href\="http\://fxexperience.com/2012/12/use-webgoogle-fonts-in-javafx/">\r\n\ http\://fxexperience.com/2012/12/use-webgoogle-fonts-in-javafx/</a>\r\n\ \ \ \ \ \r\n
+comment3.params=event
+comment3.target=void\ usernameInputClick(javafx.event.ActionEvent)
+comment3.text=\r\n\ Even\ handler\ for\ usernameInputClick\r\n
+comment4.params=event
+comment4.target=void\ startButtonClick(javafx.event.ActionEvent)
+comment4.text=\r\n\ Event\ handler\ for\ start\ button\ \ \r\n\ it\ sets\ some\ buttons\ as\ invisible\ and\ it\ calls\ {@link\ breakoutball.Model\#startGame()\ startGame}\ from\ the\ Model\ in\ order\ to\ start\ the\ first\ game.\ \r\n
+comment5.params=event
+comment5.target=void\ restartButtonClick(javafx.event.ActionEvent)
+comment5.text=\r\n\ Event\ handler\ for\ restart\ button\r\n
+comment6.params=event
+comment6.target=void\ pauseButtonClick(javafx.event.ActionEvent)
+comment6.text=\r\n\ Event\ handler\ for\ pause\ button\r\n
+comment7.params=event
+comment7.target=void\ musicButtonClick(javafx.event.ActionEvent)
+comment7.text=\r\n\ Event\ handler\ for\ music\ button\r\n
+comment8.params=event
+comment8.target=void\ nextLevelButtonClick(javafx.event.ActionEvent)
+comment8.text=\r\n\ Event\ handler\ for\ next\ level\ button\r\n
+comment9.params=event
+comment9.target=void\ handle(javafx.scene.input.KeyEvent)
+comment9.text=\r\n\ \ Event\ handler\ for\ key\ presses\ -\ it\ just\ passes\ th\ event\ to\ the\ controller\r\n
+numComments=14

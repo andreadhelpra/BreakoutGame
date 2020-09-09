@@ -1,0 +1,19 @@
+
+.label {
+    -fx-font: bold 20pt "courier new";
+}
+#Breakout{
+    -fx-background-color: white;
+}
+.button{
+    -fx-color:black;
+    -fx-text-fill:white;
+    -fx-border-color:white;
+    -fx-border-radius:0;
+}
+#startButton{
+    -fx-color: white;
+    -fx-text-fill:black;
+    -fx-font: bold 20pt "courier new";
+    -fx-font-size: 20px;
+}
