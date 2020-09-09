@@ -6,15 +6,14 @@ DATE: 06/2020
 
 HOW TO START THIS PROJECT:
        Requirements: BlueJ
-                     Java8
-       Instructions: 1.	Download the .zip file and the .jar file
+                     Java 8
+       Instructions: 1.	Download the .zip file from GitHub
                      2.	Extract all
-                     3.	Place the .jar file inside the extracted folder
                      4.	Open BlueJ
                      5.	On the top left click on ‘Project’ and select ‘Open Project’
-                     6.	Select the folder
+                     6.	Select the folder, change directory to 'breakoutgame' and open it.
                      7.	Right-click on the ‘Main’ class, select ‘Compile’ and finally select ‘Run JavaFX Application’
-                     8.	Close the window to arrest the game
+                     8.	Close the window and click the bottom-right arrow to arrest the game
 
 AUTHORS: Andrea Dhelpra
 
